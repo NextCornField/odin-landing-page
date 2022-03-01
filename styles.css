@@ -33,6 +33,43 @@ a {
     font-size: 18px;
 }
 
+div {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .links {
     margin-left: auto;
+}
+
+.content, .c1, .c2, .c3, .c4 {
+    display: flex;
+}
+
+.title {
+    font-size: 48px;
+    font: 800;
+    color: #f9faf8;
+}
+
+.content .c1 {
+    background-color: #1f2937;
+    padding: 16px 100px;
+    flex: 1;
+}
+
+.left {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageone {
+    width: 400px;
+    height: 200px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
 }
