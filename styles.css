@@ -125,3 +125,24 @@ button {
     color: #1f2937;
     font-size: 15px;
 }
+
+.c3 {
+    background-color: #e5e7eb;
+    flex-direction: column;
+    padding: 35px 100px;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    display: flex;
+}
+
+.credit {
+    display: flex;
+    color: #1f2937;
+    justify-content: flex-end;
+    font-weight: 700;
+}
