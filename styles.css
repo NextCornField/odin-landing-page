@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -47,7 +48,7 @@ div {
     flex-direction: column;
 }
 
-.c1, .c3, .c4, .container {
+.c1, .c3, .c4, .container, .footer {
     display: flex;
 }
 
@@ -71,10 +72,11 @@ div {
     align-items: center;
 }
 
-.left {
-    width: 400px;
+.c1 .left {
+    max-width: 500px;
     display: flex;
     flex-direction: column;
+    margin: 40px;
 }
 
 .imageone {
@@ -82,7 +84,7 @@ div {
     height: 250px;
 }
 
-button {
+.c1 button {
     background-color: #3882f6;
     color: #e5e7eb;
     border-radius: 5px;
@@ -94,7 +96,7 @@ button {
 .c2 .top {
     color: #1f2937;
     font-size: 36px;
-    font: 800;
+    font-weight: bold;
 }
 
 .container {
@@ -124,6 +126,7 @@ button {
 .windowtxt {
     color: #1f2937;
     font-size: 15px;
+    text-align: center;
 }
 
 .c3 {
@@ -145,4 +148,38 @@ button {
     color: #1f2937;
     justify-content: flex-end;
     font-weight: 700;
+}
+
+.c4 {
+    margin: 35px 85px;
+    padding: 30px 20px;
+    background-color: #3882f6;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.thicc {
+    font-weight: 700;
+    font-size: 24px;
+}
+.c4 button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 10px 0px;
+}
+
+.c4 .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
 }
